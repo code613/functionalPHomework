@@ -31,8 +31,8 @@ def main():
     #ok so need to se if there is a wy tpo just run the main there
     #ok now need a dictionarry
     targilDictionary = {1:targilv3.t3q1.mainq1()}
-    num  = input("p-leas enter yor number here :")
-    eval(targilDictionary(num))
+    num  = input("please enter yor number here: ")
+    eval(targilDictionary[num])
 
 
 
